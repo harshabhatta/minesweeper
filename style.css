@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d19c77;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.game_container {
+  margin: 0 auto;
+  width: 502px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #dad8d8c5;
+  border: 1px solid #444141;
+}
+
+.flags {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.timer {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30%;
+}
+
+.popup_gameover {
+  background-color: #707894e1;
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  text-align: center;
+  z-index: 1;
+  bottom: 250px;
+  left: 340px;
+  line-height: 30vh;
+  font-weight: bold;
+  font-size: 40px;
+}
+.game_container div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #866f6f;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.checked {
+  background-color: #5bb35bde;
+}
+
+/* .bomb {
+  background-color: #f34646e5;
+} */
